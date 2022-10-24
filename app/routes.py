@@ -6,8 +6,8 @@ from app.frm_entry import EntryForm
 # Connecting database
 app.config["MYSQL_DATABASE_HOST"]="localhost"
 app.config["MYSQL_DATABASE_USER"]="root"
-app.config["MYSQL_DATABASE_PASSWORD"]="opansan63"
-app.config["MYSQL_DATABASE_DB"]="test"
+app.config["MYSQL_DATABASE_PASSWORD"]="your_database_password"
+app.config["MYSQL_DATABASE_DB"]="your_database"
 app.config["MYSQL_PORT"]="3306"
 
 # Preparing variable on mysqlnya
